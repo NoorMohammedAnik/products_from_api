@@ -67,13 +67,14 @@ class _ProductDetailsState extends State<ProductDetails> {
                           widget.productInfo!.title!,
                           style: TextStyle(
                             fontSize: 20,
+                            fontWeight: FontWeight.bold,
                             color: Colors.white,
                             overflow: TextOverflow.ellipsis,
                           ),
                         ),
                       ),
                       Text(
-                        "Price: Tk " + widget.productInfo!.price!.toString(),
+                        "Tk " + widget.productInfo!.price!.toString(),
                         style: TextStyle(color: Colors.white, fontSize: 18),
                       )
                     ],
